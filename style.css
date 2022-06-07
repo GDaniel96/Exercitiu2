@@ -1,0 +1,55 @@
+.container {
+    display: inline-flex;
+    justify-content: center;
+    width: 1500px;
+    height: 50px;
+    flex-grow: 1;
+    margin: 10px;
+    background: linear-gradient(90deg, #8264f6, #66d390);
+    color: white;
+    font-family: poppins;
+}
+
+.container div {
+    transition: all 0.3 ease-in-out;
+    opacity: 1;
+}
+
+.container div:hover {
+    opacity: 0.5;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-right: 1px solid white;
+    flex-grow: 1;
+}
+
+.catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+    flex-grow: 2;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid white;
+    flex-grow: 1;
+}
+
+.profile {
+    display: flex;
+    border-right: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-grow: 1;
+}
